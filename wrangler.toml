@@ -1,1 +1,504 @@
+name = "stress-test-tool"
+type = "javascript"
+account_id = "32f870969d1f7668cc4e5a7d57f09f2c"  # Replace with your Cloudflare account ID
 
+
+[env.worker1]
+name = "worker1"
+route = "https://koma-stress-test.vercel.app//worker1/*"  # Route for this worker
+workers_dev = false
+
+[env.worker2]
+name = "worker2"
+route = "https://koma-stress-test.vercel.app//worker2/*"  # Route for this worker
+workers_dev = false
+
+[env.worker3]
+name = "worker3"
+route = "https://koma-stress-test.vercel.app//worker3/*"  # Route for this worker
+workers_dev = false
+
+[env.worker4]
+name = "worker4"
+route = "https://koma-stress-test.vercel.app//worker4/*"  # Route for this worker
+workers_dev = false
+
+[env.worker5]
+name = "worker5"
+route = "https://koma-stress-test.vercel.app//worker5/*"  # Route for this worker
+workers_dev = false
+
+[env.worker6]
+name = "worker6"
+route = "https://koma-stress-test.vercel.app//worker6/*"  # Route for this worker
+workers_dev = false
+
+[env.worker7]
+name = "worker7"
+route = "https://koma-stress-test.vercel.app//worker7/*"  # Route for this worker
+workers_dev = false
+
+[env.worker8]
+name = "worker8"
+route = "https://koma-stress-test.vercel.app//worker8/*"  # Route for this worker
+workers_dev = false
+
+[env.worker9]
+name = "worker9"
+route = "https://koma-stress-test.vercel.app//worker9/*"  # Route for this worker
+workers_dev = false
+
+[env.worker10]
+name = "worker10"
+route = "https://koma-stress-test.vercel.app//worker10/*"  # Route for this worker
+workers_dev = false
+
+[env.worker11]
+name = "worker11"
+route = "https://koma-stress-test.vercel.app//worker11/*"  # Route for this worker
+workers_dev = false
+
+[env.worker12]
+name = "worker12"
+route = "https://koma-stress-test.vercel.app//worker12/*"  # Route for this worker
+workers_dev = false
+
+[env.worker13]
+name = "worker13"
+route = "https://koma-stress-test.vercel.app//worker13/*"  # Route for this worker
+workers_dev = false
+
+[env.worker14]
+name = "worker14"
+route = "https://koma-stress-test.vercel.app//worker14/*"  # Route for this worker
+workers_dev = false
+
+[env.worker15]
+name = "worker15"
+route = "https://koma-stress-test.vercel.app//worker15/*"  # Route for this worker
+workers_dev = false
+
+[env.worker16]
+name = "worker16"
+route = "https://koma-stress-test.vercel.app//worker16/*"  # Route for this worker
+workers_dev = false
+
+[env.worker17]
+name = "worker17"
+route = "https://koma-stress-test.vercel.app//worker17/*"  # Route for this worker
+workers_dev = false
+
+[env.worker18]
+name = "worker18"
+route = "https://koma-stress-test.vercel.app//worker18/*"  # Route for this worker
+workers_dev = false
+
+[env.worker19]
+name = "worker19"
+route = "https://koma-stress-test.vercel.app//worker19/*"  # Route for this worker
+workers_dev = false
+
+[env.worker20]
+name = "worker20"
+route = "https://koma-stress-test.vercel.app//worker20/*"  # Route for this worker
+workers_dev = false
+
+[env.worker21]
+name = "worker21"
+route = "https://koma-stress-test.vercel.app//worker21/*"  # Route for this worker
+workers_dev = false
+
+[env.worker22]
+name = "worker22"
+route = "https://koma-stress-test.vercel.app//worker22/*"  # Route for this worker
+workers_dev = false
+
+[env.worker23]
+name = "worker23"
+route = "https://koma-stress-test.vercel.app//worker23/*"  # Route for this worker
+workers_dev = false
+
+[env.worker24]
+name = "worker24"
+route = "https://koma-stress-test.vercel.app//worker24/*"  # Route for this worker
+workers_dev = false
+
+[env.worker25]
+name = "worker25"
+route = "https://koma-stress-test.vercel.app//worker25/*"  # Route for this worker
+workers_dev = false
+
+[env.worker26]
+name = "worker26"
+route = "https://koma-stress-test.vercel.app//worker26/*"  # Route for this worker
+workers_dev = false
+
+[env.worker27]
+name = "worker27"
+route = "https://koma-stress-test.vercel.app//worker27/*"  # Route for this worker
+workers_dev = false
+
+[env.worker28]
+name = "worker28"
+route = "https://koma-stress-test.vercel.app//worker28/*"  # Route for this worker
+workers_dev = false
+
+[env.worker29]
+name = "worker29"
+route = "https://koma-stress-test.vercel.app//worker29/*"  # Route for this worker
+workers_dev = false
+
+[env.worker30]
+name = "worker30"
+route = "https://koma-stress-test.vercel.app//worker30/*"  # Route for this worker
+workers_dev = false
+
+[env.worker31]
+name = "worker31"
+route = "https://koma-stress-test.vercel.app//worker31/*"  # Route for this worker
+workers_dev = false
+
+[env.worker32]
+name = "worker32"
+route = "https://koma-stress-test.vercel.app//worker32/*"  # Route for this worker
+workers_dev = false
+
+[env.worker33]
+name = "worker33"
+route = "https://koma-stress-test.vercel.app//worker33/*"  # Route for this worker
+workers_dev = false
+
+[env.worker34]
+name = "worker34"
+route = "https://koma-stress-test.vercel.app//worker34/*"  # Route for this worker
+workers_dev = false
+
+[env.worker35]
+name = "worker35"
+route = "https://koma-stress-test.vercel.app//worker35/*"  # Route for this worker
+workers_dev = false
+
+[env.worker36]
+name = "worker36"
+route = "https://koma-stress-test.vercel.app//worker36/*"  # Route for this worker
+workers_dev = false
+
+[env.worker37]
+name = "worker37"
+route = "https://koma-stress-test.vercel.app//worker37/*"  # Route for this worker
+workers_dev = false
+
+[env.worker38]
+name = "worker38"
+route = "https://koma-stress-test.vercel.app//worker38/*"  # Route for this worker
+workers_dev = false
+
+[env.worker39]
+name = "worker39"
+route = "https://koma-stress-test.vercel.app//worker39/*"  # Route for this worker
+workers_dev = false
+
+[env.worker40]
+name = "worker40"
+route = "https://koma-stress-test.vercel.app//worker40/*"  # Route for this worker
+workers_dev = false
+
+[env.worker41]
+name = "worker41"
+route = "https://koma-stress-test.vercel.app//worker41/*"  # Route for this worker
+workers_dev = false
+
+[env.worker42]
+name = "worker42"
+route = "https://koma-stress-test.vercel.app//worker42/*"  # Route for this worker
+workers_dev = false
+
+[env.worker43]
+name = "worker43"
+route = "https://koma-stress-test.vercel.app//worker43/*"  # Route for this worker
+workers_dev = false
+
+[env.worker44]
+name = "worker44"
+route = "https://koma-stress-test.vercel.app//worker44/*"  # Route for this worker
+workers_dev = false
+
+[env.worker45]
+name = "worker45"
+route = "https://koma-stress-test.vercel.app//worker45/*"  # Route for this worker
+workers_dev = false
+
+[env.worker46]
+name = "worker46"
+route = "https://koma-stress-test.vercel.app//worker46/*"  # Route for this worker
+workers_dev = false
+
+[env.worker47]
+name = "worker47"
+route = "https://koma-stress-test.vercel.app//worker47/*"  # Route for this worker
+workers_dev = false
+
+[env.worker48]
+name = "worker48"
+route = "https://koma-stress-test.vercel.app//worker48/*"  # Route for this worker
+workers_dev = false
+
+[env.worker49]
+name = "worker49"
+route = "https://koma-stress-test.vercel.app//worker49/*"  # Route for this worker
+workers_dev = false
+
+[env.worker50]
+name = "worker50"
+route = "https://koma-stress-test.vercel.app//worker50/*"  # Route for this worker
+workers_dev = false
+
+[env.worker51]
+name = "worker51"
+route = "https://koma-stress-test.vercel.app//worker51/*"  # Route for this worker
+workers_dev = false
+
+[env.worker52]
+name = "worker52"
+route = "https://koma-stress-test.vercel.app//worker52/*"  # Route for this worker
+workers_dev = false
+
+[env.worker53]
+name = "worker53"
+route = "https://koma-stress-test.vercel.app//worker53/*"  # Route for this worker
+workers_dev = false
+
+[env.worker54]
+name = "worker54"
+route = "https://koma-stress-test.vercel.app//worker54/*"  # Route for this worker
+workers_dev = false
+
+[env.worker55]
+name = "worker55"
+route = "https://koma-stress-test.vercel.app//worker55/*"  # Route for this worker
+workers_dev = false
+
+[env.worker56]
+name = "worker56"
+route = "https://koma-stress-test.vercel.app//worker56/*"  # Route for this worker
+workers_dev = false
+
+[env.worker57]
+name = "worker57"
+route = "https://koma-stress-test.vercel.app//worker57/*"  # Route for this worker
+workers_dev = false
+
+[env.worker58]
+name = "worker58"
+route = "https://koma-stress-test.vercel.app//worker58/*"  # Route for this worker
+workers_dev = false
+
+[env.worker59]
+name = "worker59"
+route = "https://koma-stress-test.vercel.app//worker59/*"  # Route for this worker
+workers_dev = false
+
+[env.worker60]
+name = "worker60"
+route = "https://koma-stress-test.vercel.app//worker60/*"  # Route for this worker
+workers_dev = false
+
+[env.worker61]
+name = "worker61"
+route = "https://koma-stress-test.vercel.app//worker61/*"  # Route for this worker
+workers_dev = false
+
+[env.worker62]
+name = "worker62"
+route = "https://koma-stress-test.vercel.app//worker62/*"  # Route for this worker
+workers_dev = false
+
+[env.worker63]
+name = "worker63"
+route = "https://koma-stress-test.vercel.app//worker63/*"  # Route for this worker
+workers_dev = false
+
+[env.worker64]
+name = "worker64"
+route = "https://koma-stress-test.vercel.app//worker64/*"  # Route for this worker
+workers_dev = false
+
+[env.worker65]
+name = "worker65"
+route = "https://koma-stress-test.vercel.app//worker65/*"  # Route for this worker
+workers_dev = false
+
+[env.worker66]
+name = "worker66"
+route = "https://koma-stress-test.vercel.app//worker66/*"  # Route for this worker
+workers_dev = false
+
+[env.worker67]
+name = "worker67"
+route = "https://koma-stress-test.vercel.app//worker67/*"  # Route for this worker
+workers_dev = false
+
+[env.worker68]
+name = "worker68"
+route = "https://koma-stress-test.vercel.app//worker68/*"  # Route for this worker
+workers_dev = false
+
+[env.worker69]
+name = "worker69"
+route = "https://koma-stress-test.vercel.app//worker69/*"  # Route for this worker
+workers_dev = false
+
+[env.worker70]
+name = "worker70"
+route = "https://koma-stress-test.vercel.app//worker70/*"  # Route for this worker
+workers_dev = false
+
+[env.worker71]
+name = "worker71"
+route = "https://koma-stress-test.vercel.app//worker71/*"  # Route for this worker
+workers_dev = false
+
+[env.worker72]
+name = "worker72"
+route = "https://koma-stress-test.vercel.app//worker72/*"  # Route for this worker
+workers_dev = false
+
+[env.worker73]
+name = "worker73"
+route = "https://koma-stress-test.vercel.app//worker73/*"  # Route for this worker
+workers_dev = false
+
+[env.worker74]
+name = "worker74"
+route = "https://koma-stress-test.vercel.app//worker74/*"  # Route for this worker
+workers_dev = false
+
+[env.worker75]
+name = "worker75"
+route = "https://koma-stress-test.vercel.app//worker75/*"  # Route for this worker
+workers_dev = false
+
+[env.worker76]
+name = "worker76"
+route = "https://koma-stress-test.vercel.app//worker76/*"  # Route for this worker
+workers_dev = false
+
+[env.worker77]
+name = "worker77"
+route = "https://koma-stress-test.vercel.app//worker77/*"  # Route for this worker
+workers_dev = false
+
+[env.worker78]
+name = "worker78"
+route = "https://koma-stress-test.vercel.app//worker78/*"  # Route for this worker
+workers_dev = false
+
+[env.worker79]
+name = "worker79"
+route = "https://koma-stress-test.vercel.app//worker79/*"  # Route for this worker
+workers_dev = false
+
+[env.worker80]
+name = "worker80"
+route = "https://koma-stress-test.vercel.app//worker80/*"  # Route for this worker
+workers_dev = false
+
+[env.worker81]
+name = "worker81"
+route = "https://koma-stress-test.vercel.app//worker81/*"  # Route for this worker
+workers_dev = false
+
+[env.worker82]
+name = "worker82"
+route = "https://koma-stress-test.vercel.app//worker82/*"  # Route for this worker
+workers_dev = false
+
+[env.worker83]
+name = "worker83"
+route = "https://koma-stress-test.vercel.app//worker83/*"  # Route for this worker
+workers_dev = false
+
+[env.worker84]
+name = "worker84"
+route = "https://koma-stress-test.vercel.app//worker84/*"  # Route for this worker
+workers_dev = false
+
+[env.worker85]
+name = "worker85"
+route = "https://koma-stress-test.vercel.app//worker85/*"  # Route for this worker
+workers_dev = false
+
+[env.worker86]
+name = "worker86"
+route = "https://koma-stress-test.vercel.app//worker86/*"  # Route for this worker
+workers_dev = false
+
+[env.worker87]
+name = "worker87"
+route = "https://koma-stress-test.vercel.app//worker87/*"  # Route for this worker
+workers_dev = false
+
+[env.worker88]
+name = "worker88"
+route = "https://koma-stress-test.vercel.app//worker88/*"  # Route for this worker
+workers_dev = false
+
+[env.worker89]
+name = "worker89"
+route = "https://koma-stress-test.vercel.app//worker89/*"  # Route for this worker
+workers_dev = false
+
+[env.worker90]
+name = "worker90"
+route = "https://koma-stress-test.vercel.app//worker90/*"  # Route for this worker
+workers_dev = false
+
+[env.worker91]
+name = "worker91"
+route = "https://koma-stress-test.vercel.app//worker91/*"  # Route for this worker
+workers_dev = false
+
+[env.worker92]
+name = "worker92"
+route = "https://koma-stress-test.vercel.app//worker92/*"  # Route for this worker
+workers_dev = false
+
+[env.worker93]
+name = "worker93"
+route = "https://koma-stress-test.vercel.app//worker93/*"  # Route for this worker
+workers_dev = false
+
+[env.worker94]
+name = "worker94"
+route = "https://koma-stress-test.vercel.app//worker94/*"  # Route for this worker
+workers_dev = false
+
+[env.worker95]
+name = "worker95"
+route = "https://koma-stress-test.vercel.app//worker95/*"  # Route for this worker
+workers_dev = false
+
+[env.worker96]
+name = "worker96"
+route = "https://koma-stress-test.vercel.app//worker96/*"  # Route for this worker
+workers_dev = false
+
+[env.worker97]
+name = "worker97"
+route = "https://koma-stress-test.vercel.app//worker97/*"  # Route for this worker
+workers_dev = false
+
+[env.worker98]
+name = "worker98"
+route = "https://koma-stress-test.vercel.app//worker98/*"  # Route for this worker
+workers_dev = false
+
+[env.worker99]
+name = "worker99"
+route = "https://koma-stress-test.vercel.app//worker99/*"  # Route for this worker
+workers_dev = false
+
+[env.worker100]
+name = "worker100"
+route = "https://koma-stress-test.vercel.app//worker100/*"  # Route for this worker
+workers_dev = false
