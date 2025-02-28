@@ -1,0 +1,16 @@
+{
+  "name": "stress-test-tool",
+  "version": "1.0.0",
+  "description": "A tool to simulate server stress testing using Cloudflare Workers.",
+  "scripts": {
+    "start": "serve public",
+    "generate-workers": "node scripts/generate-workers.js",
+    "deploy-workers": "node scripts/deploy-workers.js"
+  },
+  "dependencies": {
+    "serve": "^14.0.0",
+    "wrangler": "^2.0.0"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
