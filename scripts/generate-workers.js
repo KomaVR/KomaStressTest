@@ -16,7 +16,6 @@ const wranglerConfig = `
 name = "stress-test-tool"
 type = "javascript"
 account_id = "32f870969d1f7668cc4e5a7d57f09f2c"  # Replace with your Cloudflare account ID
-zone_id = "your-zone-id"  # Replace with your Cloudflare zone ID (if using a custom domain)
 
 ${workerConfigs.join('')}
 `;
