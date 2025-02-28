@@ -1,11 +1,13 @@
 const fs = require('fs');
 
 const workerConfigs = [];
+const baseUrl = "https://koma-stress-test.vercel.app/"; // Your site's URL
+
 for (let i = 1; i <= 100; i++) {
     workerConfigs.push(`
 [env.worker${i}]
 name = "worker${i}"
-route = "worker${i}.your-domain.com/*"
+route = "${baseUrl}/worker${i}/*"  # Route for this worker
 workers_dev = false
 `);
 }
@@ -13,8 +15,8 @@ workers_dev = false
 const wranglerConfig = `
 name = "stress-test-tool"
 type = "javascript"
-account_id = "your-cloudflare-account-id"
-zone_id = "your-zone-id"
+account_id = "32f870969d1f7668cc4e5a7d57f09f2c"  # Replace with your Cloudflare account ID
+zone_id = "your-zone-id"  # Replace with your Cloudflare zone ID (if using a custom domain)
 
 ${workerConfigs.join('')}
 `;
