@@ -5,7 +5,8 @@
   "scripts": {
     "start": "serve public",
     "generate-workers": "node scripts/generate-workers.js",
-    "deploy-workers": "node scripts/deploy-workers.js"
+    "deploy-workers": "node scripts/deploy-workers.js",
+    "build": "npm run generate-workers && echo 'Build complete! Workers are ready for deployment.'"
   },
   "dependencies": {
     "serve": "^14.0.0",
